@@ -4,7 +4,7 @@ let seconds = 0;
 
 // запускаем таймер
 function timerStart() {
-    console.log('you started the timer!');
+    console.log('пять минут турецкий!');
     countSeconds = setInterval(countTime, 1000);
 }
 
