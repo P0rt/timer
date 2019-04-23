@@ -20,8 +20,8 @@ function countTime() {
         minutes += 1;
         seconds = 0;
         timer.innerHTML = minutes + ":0" + seconds;
-    };
-};
+    }
+}
 
 // стоп таймер
 function timerStop() {
