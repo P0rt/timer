@@ -2,15 +2,16 @@ const timer = document.getElementById('timer');
 let minutes = 0;
 let seconds = 0;
 
-// запускаем таймер
+// запускаем
 function timerStart() {
     console.log('пять минут, Турецкий!');
+    debugger;
     countSeconds = setInterval(countTime, 1000);
 }
 
-// функция увеличения таймера на 1 секунду за раз.
+// функция увеличения на 1 секунду за раз.
 function countTime() {
-    seconds += 1;
+    seconds += '1';
 
     if (seconds < 10) {
         timer.innerHTML = minutes + ":0" + seconds;
@@ -23,12 +24,12 @@ function countTime() {
     }
 }
 
-// стоп таймер
+// пауза
 function timerStop() {
     clearInterval(countSeconds);
 }
 
-// сброс таймера
+// сброс
 function timerReset() {
     seconds = 0;
     minutes = 0;
