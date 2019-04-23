@@ -1,0 +1,28 @@
+{
+  "name": "timer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "ko": "browser-sync start --server --files",
+    "homepage": "https://p0rt.github.io/timer",
+    "dep": "git push"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/P0rt/timer.git"
+  },
+  "author": "SP",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/P0rt/timer/issues"
+  },
+  "dependencies": {
+    "browser-sync": "^2.26.4",
+    "webpack": "^4.30.0"
+  },
+  "devDependencies": {
+    "browser-sync-webpack-plugin": "^2.2.2",
+    "gh-pages": "^2.0.1"
+  }
+}
