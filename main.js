@@ -10,7 +10,7 @@ function timerStart() {
 
 // функция увеличения на 1 секунду за раз.
 function countTime() {
-    seconds += 1;
+    seconds += '1';
     console.log(seconds);
     if (seconds < 10) {
         timer.innerHTML = minutes + ":0" + seconds;
